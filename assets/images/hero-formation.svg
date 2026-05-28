@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004165"/>
+      <stop offset="50%" style="stop-color:#0066a1"/>
+      <stop offset="100%" style="stop-color:#0088cc"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="500" fill="url(#heroGrad)"/>
+  <rect width="1200" height="500" fill="url(#grid)"/>
+  <!-- Abstract shapes -->
+  <circle cx="1000" cy="100" r="150" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="200" cy="400" r="100" fill="rgba(255,255,255,0.03)"/>
+  <!-- Geometric elements -->
+  <rect x="850" y="250" width="200" height="120" rx="10" fill="rgba(255,255,255,0.08)" transform="rotate(-15 950 310)"/>
+  <rect x="150" y="150" width="150" height="100" rx="8" fill="rgba(255,255,255,0.06)" transform="rotate(10 225 200)"/>
+</svg>
